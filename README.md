@@ -13,4 +13,5 @@ Consider this implementation of online voting.  Ballots would be sent out as in 
 This repository contains doc and ppt files describing a reliable online voting system based on existing voter registration data and common Internet, and data processing techniques.
 
 Doug Blewett
+
 doug.blewett@gmail.com
