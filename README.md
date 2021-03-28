@@ -11,3 +11,6 @@ The chaos of the Gore v. Bush election was related to the problems one finds in 
 Consider this implementation of online voting.  Ballots would be sent out as in 2020.  The ballots would include a unique, human readable, “ballot number”.  This ballot number would be the only change to the ballot that was sent to all voters.  Numbering the ballots means that only legal ballots can be cast.  That number would be included by the voter when casting the vote online.  The systems would allow for only one vote per numbered ballot.  The ballot numbers are never associated with the identity of the voter – thus keeping the identity of the voter secret.  Some of the mail in ballots used in the 2020 election did include identification codes, but there were reports of those codes were not used.  The 2020 codes were not intended for human readability and use.
 
 This repository contains doc and ppt files describing a reliable online voting system based on existing voter registration data and common Internet, and data processing techniques.
+
+Doug Blewett
+doug.blewett@gmail.com
