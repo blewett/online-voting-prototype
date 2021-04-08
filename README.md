@@ -1,5 +1,12 @@
 # Online Voting System Discussion
-This is a prototype implmentation of an online voting system.  This discussion was started prior to the 2020 election and now seems more relevant.  The prototype implmentation uses data already collected in the voter registration process and uses that to provide multi-factor verification.  All cryptographic work is done by code running on the server.  In the case of this prototpe that code is all written in php.  The primary cryptogrphic tool is sha-3 hashing - again all performed in php.  We run a local user level php server for debugging and testing.  The php server is invoked with the following:
+
+![alt text](https://github.com/blewett/online-voting-using-existing-registration-data/blob/main/images/vote_form.jpg?raw=true)
+
+This is a prototype implmentation of an online voting system.  This discussion was started prior to the 2020 election and now seems more relevant.  The prototype implmentation uses data already collected in the voter registration process and uses that to provide multi-factor verification.  All cryptographic work is done by code running on the server.  In the case of this prototpe that code is all written in php.  The primary cryptogrphic tool is sha-3 hashing - again all performed in php.
+
+![alt text](https://github.com/blewett/online-voting-using-existing-registration-data/blob/main/images/vote_login.jpg?raw=true)
+
+We run a local user level php server for debugging and testing.  The php server is invoked with the following:
 
 php -S 127.0.0.1:8181
 
