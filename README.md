@@ -44,8 +44,8 @@ Information processing has made great strides.  As votes pour in they would be �
 After casting ballots, voters would like to be able to review the cast ballots as a way to personally verify that their ballot was recorded correctly.  When a legal ballot is cast online, the system would return a “cast number” that can be used to later inspect the cast ballot.  To review a cast ballot, the voter would use the ballot number and the cast number to view the cast vote.  The cast ballot database would store the encrypted versions of the ballot number and the cast number.  Those two numbers could be used at a later date to retrieve and examine the cast ballot.  The voter’s identity would not be revealed using this method.  Legal access to the voting system would be preserved.
 
 One has to compare online voting with mail in voting as the test for viability.  There is a “consensus” argument that online voting will never be as secure as paper media based voting.  The scientific rationale for that argument is usually completely missing.  Every time voting media is physically handled there is the possibility for error or worse yet fraud.  From Ballotpedia, a non partisan organization, rejected ballot percentages are around one percent of the mail in/absentee ballots.  The numbers for the 2020 election are still out in many locales.  Consider the many human steps involved in mailing back a ballot and that ballot being tabulated by running the ballots through tabulating machines.  We need to move to online voting.  It is time.
-https://ballotpedia.org/Election_results,_2020:_Analysis_of_rejected_ballots
 
+https://ballotpedia.org/Election_results,_2020:_Analysis_of_rejected_ballots
 
 This repository contains doc and ppt files describing a reliable online voting system based on existing voter registration data and common Internet, and data processing techniques.
 
