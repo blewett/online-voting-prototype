@@ -3,7 +3,7 @@
     Jane Doe
     121 Canoba St
     Palo Alto
-      94025
+      94301
 
 
 NEW PAGE INSERTED HERE
@@ -17,7 +17,7 @@ BALLOT INSERTED HERE as occurred in 2020
     John Smith
     1823 Baxter street
     Menlo Park
-      94027
+      94025
 
 
 NEW PAGE INSERTED HERE
@@ -31,7 +31,7 @@ BALLOT INSERTED HERE as occurred in 2020
     Sarah Lewis
     454 Alameda de las Pulgas Street
     Menlo Park
-      94027
+      94025
 
 
 NEW PAGE INSERTED HERE
@@ -45,7 +45,7 @@ BALLOT INSERTED HERE as occurred in 2020
     Michael Chan
     927 Thames Way #412
     Portola Valley
-      94026
+      94028
 
 
 NEW PAGE INSERTED HERE

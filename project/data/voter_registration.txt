@@ -1,4 +1,4 @@
-Jane:Doe:121 Canoba St:Palo Alto:94025:1234
-John:Smith:1823 Baxter street:Menlo Park:94027:2341
-Sarah:Lewis:454 Alameda de las Pulgas Street:Menlo Park:94027:4567
-Michael:Chan:927 Thames Way #412:Portola Valley:94026:7890
+Jane:Doe:121 Canoba St:Palo Alto:94301:1234:1999-07-11
+John:Smith:1823 Baxter street:Menlo Park:94025:2341:2000-07-12
+Sarah:Lewis:454 Alameda de las Pulgas Street:Menlo Park:94025:4567:2001-07-13
+Michael:Chan:927 Thames Way #412:Portola Valley:94028:7890:2002-07-14
