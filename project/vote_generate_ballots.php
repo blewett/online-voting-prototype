@@ -111,12 +111,13 @@ function generate_ballots()
     if ($fp_mailing_list == false)
 	    apologize("$voter_validation is not writable.");
 
-    // the registration database has name, address, zip, and socsec
+    // the registration database has name, address, zip, socsec, and birthday
     $fp_voter_registration = @fopen($voter_registration, "r");
     if ($fp_voter_registration == false)
         apologize("The voter registration database is not readable.\n");
 
     $ifirst = 0; $ilast = 1; $iaddress = 2; $icity = 3; $izip = 4; $isocsec = 5;
+    $ibirthday = 6;
     $ballot_number = 1024;
     while (!feof($fp_voter_registration))
     {
@@ -130,7 +131,7 @@ function generate_ballots()
         // create the hashes for the 
         // city not used by hash function - demo
         $v = voter_hash1($l[$ifirst], $l[$ilast], $l[$iaddress],
-                         $l[$icity], $l[$izip], $l[$isocsec]);
+                         $l[$icity], $l[$izip], $l[$isocsec], $ibirthday);
 
         $b = ballot_hash("$ballot_number");
 
@@ -167,6 +168,7 @@ function generate_ballots()
     if ($fp == false)
         apologize("$voter_cast_ballots database is not writable.\n");
     fclose($fp);
+    print("<h2> the ballot database has been created </h2>\n");
 }
 
 generate_ballots();

@@ -50,6 +50,8 @@ function HelpAlert(message)
 
     messages["socsec"] = "Enter the last four digits of your social security number or your drivers license - which ever you used to register to vote";
 
+    messages["birthday"] = "Enter the month, day, and year of your birth.  The year must contain four digits - for example 1983.  The icon on the left can help you should you need to select each item (month, day, and year) from a menu.  Press enter to verify your date.";
+
     messages["loginbutton"] = "Select the login button to complete your login process.";
 
    alert(messages[message]);
@@ -143,6 +145,24 @@ function HelpAlert(message)
 	      <a href="javascript:HelpAlert('socsec')" class="linkStyle vote">Help</a>
 	    </td>
           </tr>
+
+	    </td>
+          </tr>
+          <tr>
+            <td class="right">
+		  <label for="birthday">birthday:</label>
+	    </td>
+	    <td>
+
+	      <input name="birthday" type="date"
+		     placeholder="e.g. 12/21/1983"
+		     id="birthday"  min="1900-01-01" max="2002-11-02"
+		  required></td>
+	    <td>
+	      <a href="javascript:HelpAlert('birthday')" class="linkStyle vote">Help</a>
+	    </td>
+          </tr>
+
           <tr>
             <td><br><br></td>
 	    <td><button id="login" type="submit"> Login </button> </td>

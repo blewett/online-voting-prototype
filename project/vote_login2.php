@@ -46,12 +46,13 @@ require_once("includes/update_timestamp.php");
     $city = "";
     $zipcode = $_POST["zipcode"];
     $socsec = $_POST["socsec"];
+    $birthday = $_POST["birthday"];
 
     //
     // calculate the voter hash from the user input
     //
     $v = voter_hash1($firstname, $lastname, $address,
-                     $city, $zipcode, $socsec);
+                     $city, $zipcode, $socsec, $birthday);
 
     //
     // search for the voter hash validation_ballot_database (this would be sql)
