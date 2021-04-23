@@ -7,18 +7,14 @@ and Macs.
    macs, and Windows 10.  One has to install python3 and php on each
    of those systems - easy.  On Linux systems (often Ubuntu) one uses
    apt install.  On macs, one uses brew to install python after
-   installing xcode.  xcode is free.  xcode ships with php.  On Window
-   10, one uses the following links:
+   installing xcode.  xcode is free.  xcode ships with php.  On
+   Windows 10, one uses the following links:
 
     https://www.python.org/downloads
-    https://pypi.org/project/opencv-python
     https://windows.php.net/download
 
    python3 will complain about missing pacakges.  Install them with
-   pip3:
-
-    pip3 install opencv-python
-    pip3 install request
+   pip3.
 
 1. Create a Desktop vote folder.
     right click on the Desktop and select New -> folder
