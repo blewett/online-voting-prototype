@@ -4,10 +4,10 @@ downloaded as a zip file from github.com.  These steps are in Windows
 and Macs.
 
 0. This system uses php.  This works well on Linux, Apple macs, and
-   Windows 10.  One has to install python3 and php on each of those
-   systems - easy.  On Linux systems (often Ubuntu) one uses apt
-   install.  On macs, xcode is free.  xcode ships with php.  On
-   Windows 10, one uses the following link:
+   Windows 10.  One has to install php on each of those systems -
+   easy.  On Linux systems (often Ubuntu) one uses apt install.  On
+   macs, xcode is free.  xcode ships with php.  On Windows 10, one
+   uses the following link:
 
     https://windows.php.net/download
 
