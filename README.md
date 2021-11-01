@@ -47,7 +47,7 @@ One has to compare online voting with mail in voting as the test for viability. 
 
 https://ballotpedia.org/Election_results,_2020:_Analysis_of_rejected_ballots
 
-This repository contains doc and ppt files describing a reliable online voting system based on existing voter registration data and common Internet, and data processing techniques.  There doc file and a README-vote.txt file that explain how to setup and use the system across platforms.
+This repository contains doc and ppt files describing a reliable online voting system based on existing voter registration data and common Internet, and data processing techniques.  The doc file and a README-vote.txt file explain how to setup and use the system across platforms.
 
 Doug Blewett
 
