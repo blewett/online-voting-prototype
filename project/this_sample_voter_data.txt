@@ -1,0 +1,37 @@
+first: Jane
+last:Doe
+address: 121 Canoba St
+city: Palo Alto
+zip: 94301
+socsec: 1234
+birthday: 1999-07-11
+ballot_number: 1024
+
+first: John
+last:Smith
+address: 1823 Baxter street
+city: Menlo Park
+zip: 94025
+socsec: 2341
+birthday: 2000-07-12
+ballot_number: 1025
+
+first: Sarah
+last:Lewis
+address: 454 Alameda de las Pulgas Street
+city: Menlo Park
+zip: 94025
+socsec: 4567
+birthday: 2001-07-13
+ballot_number: 1026
+
+first: Michael
+last:Chan
+address: 927 Thames Way #412
+city: Portola Valley
+zip: 94028
+socsec: 7890
+birthday: 2002-07-14
+ballot_number: 1027
+
+<h2> the ballot database has been created </h2>
